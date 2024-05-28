@@ -25,6 +25,7 @@ restartButton.addEventListener('click', startGame)
 
 function startGame(){
     oTurn=false
+    turnText.innerText=`${oTurn ? "O's": "X's"} Turn`
     cellElements.forEach(cell => {
         cell.classList.remove(X_CLASS)
         cell.classList.remove(O_CLASS)
