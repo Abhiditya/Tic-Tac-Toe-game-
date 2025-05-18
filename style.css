@@ -41,13 +41,13 @@ body {
 .top h1 {
     border-bottom: 3px solid #5c2a45;
     color: #aa4465; 
-    margin: 1rem;
+    margin: 0.8rem;
 }
 
 [turn] {
     font-weight: bold;
     font-size: 2rem; 
-    margin: 2rem;
+    margin: 1.3rem;
     color: #5c2a45;
     text-shadow:
         0 0 8px #aa4465,
